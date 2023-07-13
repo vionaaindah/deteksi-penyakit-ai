@@ -1,0 +1,106 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    margin: 2%;
+}
+
+
+#content {
+    position: static;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #112031;
+}
+
+#question {
+    float: right;
+    width: 44%;
+    padding: 10px;
+}
+
+#image {
+    position: fixed;
+    float: left;
+    width: 54%;
+    height: 100%;
+    margin: auto 0;
+}
+
+#image img {
+    margin-top: 3%;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+#ques {
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+    border-style: double;
+}
+
+#ques p {
+    padding: 0;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+
+#ket {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#hasil {
+    border-style: groove;
+    color: #112031;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 8%;
+    width: 80%;
+    font-size: smaller;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 0.6em;
+    cursor: pointer;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 40px;
+    padding: 0.6em 1.4em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5%;
+
+}
+
+.btn:hover,
+.btn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.btn option {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    align-items: center !important;
+    justify-content: center !important;
+}
